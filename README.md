@@ -27,14 +27,23 @@ If you are running different OS, change COM port path.
 Files:
 
 ├── driver
+
 │   └── serialPY.py
+
 ├── inc
+
 │   └── uart.h
+
 ├── main.hex
+
 ├── makefile
+
 ├── README.md
+
 └── src
+
     ├── main.c
+    
     └── uart.c
 
 3 directories, 7 files
