@@ -2,7 +2,7 @@
 Monitor temperature in your room using gmail and Atmega328p.
 
 Using: Python 3.6.8 and avr-gcc
-OS: Windows Subsystem for Linux (Ubuntu)
+MCU: ATMEGA328P
 Sensor: ATMega328p builtin temperature sensor
 
 main.c:
