@@ -52,8 +52,6 @@ AT commands:
 "AT+LED" -> toggle led on PB13
 "AT+TER" -> returns temperature value ( suitable for serial plotters )
 
-Max period for commands = 100ms
-
 Run:
 
 make
