@@ -8,10 +8,9 @@ CFLAGS=-std=c99 -Wall -g -Os -mmcu=${MCU} -DF_CPU=${F_CPU} -I.
 TARGET=main
 SRCS= ./src/uart.c ./src/main.c
 BAUD_RATE=115200
-PATH_DS18B20=#./inc/libuart.a
 
 all:
-	${CC} ${CFLAGS} -o ${TARGET}.bin ${SRCS} ${PATH_DS18B20}
+	${CC} ${CFLAGS} -o ${TARGET}.bin ${SRCS}
 	${OBJCOPY} -j .text -j .data -O ihex ${TARGET}.bin ${TARGET}.hex
 
 flash:
