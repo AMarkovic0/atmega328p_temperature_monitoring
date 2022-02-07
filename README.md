@@ -8,8 +8,8 @@ On email request, this software will send you an email with measured temperatue.
 
 The project has two components:
 
-	- Software for the temperature measurment and signal processing
-	- SMTP Client
+- Software for the temperature measurment and signal processing
+- SMTP Client
 
 ## Atmega328p
 
